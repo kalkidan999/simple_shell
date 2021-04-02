@@ -11,7 +11,7 @@ project is created with:
 simple_shell is designed to run in the Ubuntu linux environment and to be compiled using the GNU compiler collection v. gcc 4.8.4 
 with flags -Wall, -Werror, -Wextra, and -pedantic.
 ## Installation
-* clone this repostory [https://github.com/kalkidan999/simple_shell.git] (#https://github.com/kalkidan999/simple_shell.git)
+* clone this repostory https://github.com/kalkidan999/simple_shell.git
 * Change directories into the repository: acd simple_shell
 * Compile: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 * Run the shell: ./hsh
