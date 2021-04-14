@@ -1,3 +1,4 @@
+#include "shell.h"
 /**
  * _strcmp - Compare Two String
  * @s1:String 1
