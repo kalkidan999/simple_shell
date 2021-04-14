@@ -17,54 +17,54 @@ with flags -Wall, -Werror, -Wextra, and -pedantic.
 * Run the shell: ./hsh
 ## Example
 ### 1.
-regular-prompt:~$ ./hsh
-$ pwd
-/home/username/
-$ ^D
-regular-prompt:~$
-### 2.
-regular-prompt:~$ ./hsh
-$ ls -l /tmp 
--rw------- 1 username username    0 Dec  5 12:09 config-err-aAMZrR
-drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
-drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV
-drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
--rw-rw-r-- 1 username username    0 Dec  5 12:09 unity_support_test.0
-$ ^D
+regular-prompt:~$ ./hsh <br />
+$ pwd <br />
+/home/username/ <br />
+$ ^D <br />
+regular-prompt:~$ 
+### 2. 
+regular-prompt:~$ ./hsh <br />
+$ ls -l /tmp <br />
+-rw------- 1 username username    0 Dec  5 12:09 config-err-aAMZrR <br />
+drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr <br />
+drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV <br />
+drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH <br />
+-rw-rw-r-- 1 username username    0 Dec  5 12:09 unity_support_test.0 <br />
+$ ^D <br />
 regular-prompt:~$
 ### 3.
-run the program by executing the follwing command
-$ ./hsh
+run the program by executing the follwing command <br />
+$ ./hsh <br />
 $ ls
 ## List of functions and system calls we are allowed to use:
-access (man 2 access)
-chdir (man 2 chdir)
-close (man 2 close)
-closedir (man 3 closedir)
-execve (man 2 execve)
-exit (man 3 exit)
-fork (man 2 fork)
-free (man 3 free)
-fstat (man 2 fstat)
-getcwd (man 3 getcwd)
-getline (man 3 getline)
-kill (man 2 kill)
-lstat (man 2 lstat)
-malloc (man 3 malloc)
-open (man 2 open)
-opendir (man 3 opendir)
-perror (man 3 perror)
-read (man 2 read)
-readdir (man 3 readdir)
-signal (man 2 signal)
-stat (man 2 stat)
-strtok (man 3 strtok)
-wait (man 2 wait)
-waitpid (man 2 waitpid)
-wait3 (man 2 wait3)
-wait4 (man 2 wait4)
-write (man 2 write)
-_exit (man 2 _exit)
+access (man 2 access) <br />
+chdir (man 2 chdir) <br />
+close (man 2 close)<br />
+closedir (man 3 closedir)<br />
+execve (man 2 execve)<br />
+exit (man 3 exit)<br />
+fork (man 2 fork)<br />
+free (man 3 free)<br />
+fstat (man 2 fstat)<br />
+getcwd (man 3 getcwd)<br />
+getline (man 3 getline)<br />
+kill (man 2 kill)<br />
+lstat (man 2 lstat)<br />
+malloc (man 3 malloc)<br />
+open (man 2 open)<br />
+opendir (man 3 opendir)<br />
+perror (man 3 perror)<br />
+read (man 2 read)<br />
+readdir (man 3 readdir)<br />
+signal (man 2 signal)<br />
+stat (man 2 stat)<br />
+strtok (man 3 strtok)<br />
+wait (man 2 wait)<br />
+waitpid (man 2 waitpid)<br />
+wait3 (man 2 wait3)<br />
+wait4 (man 2 wait4)<br />
+write (man 2 write)<br />
+_exit (man 2 _exit)<br />
 ## Authors
 * Kalkidan Demes
 * Fkadeal Matiwos
