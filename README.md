@@ -17,13 +17,12 @@ with flags -Wall, -Werror, -Wextra, and -pedantic.
 * Run the shell: ./hsh
 ## Example
 ### 1.
-regular-prompt:~$ ./hsh <br />
+$ ./hsh <br />
 $ pwd <br />
 /home/username/ <br />
 $ ^D <br />
-regular-prompt:~$ 
 ### 2. 
-regular-prompt:~$ ./hsh <br />
+$ ./hsh <br />
 $ ls -l /tmp <br />
 -rw------- 1 username username    0 Dec  5 12:09 config-err-aAMZrR <br />
 drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr <br />
@@ -31,7 +30,7 @@ drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a4434973
 drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH <br />
 -rw-rw-r-- 1 username username    0 Dec  5 12:09 unity_support_test.0 <br />
 $ ^D <br />
-regular-prompt:~$
+$
 ### 3.
 run the program by executing the follwing command <br />
 $ ./hsh <br />
